@@ -61,6 +61,13 @@ document.addEventListener("DOMContentLoaded", function () {
   srRight.reveal(".skill", { delay: 100 });
   srRight.reveal(".skill-box", { delay: 100 });
 
+  sr.reveal(".form-control", { delay: 100, origin: "bottom", distance: "50px" });
+  sr.reveal(".form-inputs", { delay: 200, origin: "bottom", distance: "50px", interval: 100 });
+  sr.reveal(".input-field", { delay: 300, origin: "bottom", distance: "50px", interval: 100 });
+  sr.reveal(".input-subject", { delay: 400, origin: "bottom", distance: "50px" });
+  sr.reveal("textarea", { delay: 500, origin: "bottom", distance: "50px" });
+  sr.reveal(".form-button", { delay: 600, origin: "bottom", distance: "50px" });
+
   const section = document.querySelectorAll(".section[id]");
 
   function scrollActive() {
